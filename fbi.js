@@ -26,7 +26,7 @@ var FbiSchema = new mongoose.Schema({
     immunization: { type: [String] },
     bplCard: { type: String },
     weight: { type: Number },
-    growthCurve: { type: [String] },
+    growthCurve: { type: String },
     pastIllness: { type: String },
     //natureOfIllness: { type: String },
 
